@@ -20,7 +20,7 @@ platforms:
   - name: nocm_centos-6.5
     driver_plugin: vagrant
     driver_config:
-      box: nocm_centos-6.5
+      box: nocm_centos-65
       box_url: http://puppet-vagrant-boxes.puppetlabs.com/centos-65-x64-virtualbox-nocm.box
       network:
       - ['forwarded_port', {guest: 8080, host: 8080}]
